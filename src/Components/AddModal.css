@@ -1,0 +1,60 @@
+.add-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.modal-content-add {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    height: 300px;
+    width: 80%;
+    text-align: center;
+
+}
+
+.modal-title-add {
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.modal-close-add {
+    cursor: pointer;
+    margin-left: 90%;
+    border: 1px solid;
+    border-radius: 50%;
+
+}
+
+.modal-close-add:hover {
+    background-color: rgb(243, 150, 150);
+}
+
+.title-name-add {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.form-add{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.input-add{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

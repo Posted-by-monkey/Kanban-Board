@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.board{
+  border: 1px solid;
+  margin: 2%;
+  background: rgb(234, 232, 232);
+  height: 500px; 
+  width: 400px ;
+  text-align: center;
+  overflow-y: scroll;
+}
+.board_title{
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 2%;
+  text-align: center;
+}
+.item{
+  margin: 2%; 
+  min-height: 10%; 
+  min-width: 20%; 
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  min-height: 100px;
+  position: relative;
+  cursor: grab;
+  overflow-x: scroll;
+}
+.item:hover{
+  background-color: rgb(215, 252, 252);
+}
+.AddTaskButton{
+  margin: 2% auto; 
+  min-height: 5%; 
+  min-width: 10%;
+  background: white;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  position: absolute;
+  top: 2%;
+  background: rgb(234, 232, 232);
+  border-radius: 50%;
+}
+.AddTaskButton:hover {
+  background-color: rgb(201, 220, 237);
+}
+.DelEl{
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+.DelEl:hover{
+  background-color: rgb(255, 0, 0);
+}
+.EditEl{
+  position: absolute;
+  top: 5px;
+ left: 5px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  
+}
+.EditEl:hover{
+  background-color: rgb(233, 214, 251);
+}
